@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT Logger",
+    "version": "1.0",
+    "description": "Logs ChatGPT prompts.",
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "debugger",
+        "tabs"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "home.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "home.html",
+        "default_icon": "prompt_logger.png"
+    }
+}
