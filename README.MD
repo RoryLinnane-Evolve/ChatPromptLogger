@@ -33,7 +33,3 @@ ChatGPT Logger is a Chrome extension that logs all your ChatGPT prompts and allo
 - [manifest.json](http://_vscodecontentref_/2): The manifest file for the Chrome extension.
 - [home.html](http://_vscodecontentref_/3): The HTML file for the extension's popup.
 - [home.js](http://_vscodecontentref_/4): The JavaScript file that handles the extension's functionality.
-
-## License
-
-This project is licensed under the MIT License.
